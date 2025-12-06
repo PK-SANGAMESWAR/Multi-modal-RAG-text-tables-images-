@@ -1,0 +1,16 @@
+[project]
+name = "multimodel-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "hf-xet>=1.2.0",
+    "ipykernel>=7.1.0",
+    "langchain>=1.1.2",
+    "langchain-chroma>=1.0.0",
+    "langchain-community>=0.4.1",
+    "langchain-ollama>=1.0.0",
+    "python-dotenv>=1.2.1",
+    "unstructured[all-docs]>=0.18.21",
+]
